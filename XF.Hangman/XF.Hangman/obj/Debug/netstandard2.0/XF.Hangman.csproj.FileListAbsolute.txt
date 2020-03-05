@@ -1,0 +1,13 @@
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\bin\Debug\netstandard2.0\XF.Hangman.deps.json
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\bin\Debug\netstandard2.0\XF.Hangman.dll
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\bin\Debug\netstandard2.0\ref\XF.Hangman.dll
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\bin\Debug\netstandard2.0\XF.Hangman.pdb
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\obj\Debug\netstandard2.0\XF.Hangman.csprojAssemblyReference.cache
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\obj\Debug\netstandard2.0\XF.Hangman.AssemblyInfoInputs.cache
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\obj\Debug\netstandard2.0\XF.Hangman.AssemblyInfo.cs
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\obj\Debug\netstandard2.0\XF.Hangman.dll
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\obj\Debug\netstandard2.0\ref\XF.Hangman.dll
+D:\Dev\temp\XF.Hangman\XF.Hangman\XF.Hangman\obj\Debug\netstandard2.0\XF.Hangman.pdb

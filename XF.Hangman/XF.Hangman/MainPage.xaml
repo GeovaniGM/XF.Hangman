@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XF.Hangman.MainPage">
+   <Grid BackgroundColor="CornflowerBlue" RowSpacing="5" ColumnSpacing="5" Padding="5">
+      <Frame BackgroundColor="White" CornerRadius="5">
+         <Label Text="DASHBOARD" FontSize="80" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" CharacterSpacing="2"/>
+      </Frame>
+
+      <Frame BackgroundColor="White" Grid.Column="1" CornerRadius="5">
+         <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="40" LineHeight="0">
+            <Label.FormattedText>
+               <FormattedString>
+                  <Span Text="|O&#10;" TextDecorations="Underline"/>
+                  <Span Text="/ | \&#10;"/>
+                  <Span Text="/ \"/>
+               </FormattedString>
+            </Label.FormattedText>
+         </Label>
+      </Frame>
+
+      <Frame BackgroundColor="White" Grid.Row="1" Grid.ColumnSpan="2" CornerRadius="5">
+         <CollectionView FlowDirection="LeftToRight" HorizontalScrollBarVisibility="Never" HorizontalOptions="CenterAndExpand">
+            <CollectionView.ItemsLayout>
+               <GridItemsLayout Orientation="Vertical" Span="9"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemsSource>
+               <x:Array Type="{x:Type x:String}">
+                  <x:String>A</x:String>
+                  <x:String>B</x:String>
+                  <x:String>C</x:String>
+                  <x:String>D</x:String>
+                  <x:String>E</x:String>
+                  <x:String>F</x:String>
+                  <x:String>G</x:String>
+                  <x:String>H</x:String>
+                  <x:String>I</x:String>
+                  <x:String>J</x:String>
+                  <x:String>K</x:String>
+                  <x:String>L</x:String>
+                  <x:String>M</x:String>
+                  <x:String>N</x:String>
+                  <x:String>O</x:String>
+                  <x:String>P</x:String>
+                  <x:String>Q</x:String>
+                  <x:String>R</x:String>
+                  <x:String>S</x:String>
+                  <x:String>T</x:String>
+                  <x:String>U</x:String>
+                  <x:String>V</x:String>
+                  <x:String>W</x:String>
+                  <x:String>X</x:String>
+                  <x:String>Y</x:String>
+                  <x:String>Z</x:String>
+               </x:Array>
+            </CollectionView.ItemsSource>
+            <CollectionView.ItemTemplate>
+               <DataTemplate>
+                  <Frame BorderColor="Black" CornerRadius="10" Padding="10" HeightRequest="100" WidthRequest="100">
+                     <Label Text="{Binding .}" TextColor="Black" FontSize="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                  </Frame>
+               </DataTemplate>
+            </CollectionView.ItemTemplate>
+         </CollectionView>
+      </Frame>
+   </Grid>
+</ContentPage>
